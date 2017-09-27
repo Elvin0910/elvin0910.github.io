@@ -1,0 +1,98 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+
+/* items */
+
+.item {
+	height: 300px;
+	width: 300px;
+	background: lightblue;
+	color: yellow;
+
+	margin: 10px;
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left;
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+#panel {
+    padding: 50px;
+    display: none;
+			background: pink;
+}
+#gotit {
+	height: 300px;
+	width: 300px;
+    display: none;
+			background: pink;
+}
+
+
+/* example buttons */
+
+
+
+#button-1:active {
+	background: white;
+	opacity: 0.3;
+}
+
+
+/* example buttons */
+
+
+
+
+#button-2:active {
+border-radius: 300%;
+
+}
+#button-4:active {
+    border-radius: 300%;
+		background:pink;
+		transition: 0.5s ease;
+}
+#button-5:active {
+		transform: rotate(66deg);
+		transition: 2s ease;
+}
+#button-6:active {
+			transform: scale(0.3);
+
+
+    }
+
+
+#button-8:active {
+
+						border-collapse: 200%; -webkit-transform: rotateX(400deg);
+						background-color: pink;
+						    }
+#button-22:active {	transform: rotate(180deg);
+
+
+														    }
+																#button-26:active { cursor: wait;
+
+
+																														    }
+	#button-28:active {transform: scale(10.0); }
+		#button-29:active {text-transform: uppercase;}
+				#button-38:active {padding: 0cm 5cm;}
